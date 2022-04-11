@@ -49,17 +49,21 @@ footer{
    justify-content:space-evenly;
 
 }
-.container{
+.content{
    display:flex;
    flex-direction: column;
    justify-content:space-evenly;
    gap: 5px;
    border-radius: 4px;
    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+   flex-shrink:0;
+   width: 350px;
+   height: 400px;
+   padding: 10px;
 
    
 }
-.container h2{
+.content h2{
     text-align: center;
     color: #d2d2d2;
 }
@@ -84,4 +88,7 @@ footer{
     color:blue;
 
 }
+
+
+
 
